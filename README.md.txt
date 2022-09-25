@@ -16,6 +16,30 @@ pedido_contem_produto (relação muitos para muitos)
 vendedor
 vendedor_vende_produto (relação muitos para muitos) 
 
+Foram feitas as seguintes buscas de informações:
+-Seleção de todos os clientes;
+-Seleção de clientes que nasceram a partir da década de 90;
+-Cálculo da idade dos clientes e ordenação pelo mais velho;
+-Criação de faixas etárias para criar tabela de frequência;
+-Seleção de clientes que tenham feito pedido e seu status;
+-Lista de produtos e seus fornecedores;
+-Dados dos pedidos cujos produtos estavam em estoque;
+-Produtos e seus totais independente do status;
+-Quantos pedidos foram feitos por cada cliente;
+-Se algum vendedor também é fornecedor;
+-Relação de produtos fornecedores e estoques;
+-Local de estoque em que a quantidade de items seja maior que a média dos items
+
+Para tanto, foram utilizados:
+- where;
+- order by;
+- case when;
+- concat;
+- group by;
+- having;
+- avg e sum;
+- inner e left joins.
+
 
 The database ecommerce has been created according to the directions given in the previous chalenge.
 
